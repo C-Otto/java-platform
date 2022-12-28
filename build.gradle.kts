@@ -41,7 +41,7 @@ dependencies {
         api("org.webjars:webjars-locator:0.46")
 
         // Testing Libraries
-        api("com.github.valfirst:slf4j-test:2.6.1")
+        api("com.github.valfirst:slf4j-test:2.7.0")
         api("com.tngtech.archunit:archunit:1.0.1")
         api("nl.jqno.equalsverifier:equalsverifier:3.12.2")
         api("org.awaitility:awaitility:4.2.0")
