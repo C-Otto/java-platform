@@ -4,14 +4,13 @@ plugins {
 }
 
 group = "de.c-otto"
-version = "2022.12.28"
+version = "2022.12.28_2"
 
 javaPlatform {
     allowDependencies()
 }
 
 dependencies {
-
     constraints {
         // Gradle plugins
         api("com.adarshr:gradle-test-logger-plugin:3.2.0")
