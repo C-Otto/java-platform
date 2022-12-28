@@ -76,6 +76,25 @@ publishing {
                     url.set("https://github.com/C-Otto/java-platform")
                 }
             }
+            repositories {
+                maven {
+                    name = "OSSRH"
+                    setUrl("https://s01.oss.sonatype.org/service/local/staging/deploy/maven2")
+                    credentials {
+                        username = "C-Otto"
+                        password = System.getenv("OSSRH_PASSWORD") ?: return@credentials
+                    }
+                }
+            }
         }
     }
+}
+
+configure<SigningExtension> {
+    isRequired = true
+
+    val publishing: PublishingExtension by project
+
+    useGpgCmd()
+    sign(publishing.publications)
 }
