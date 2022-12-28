@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "de.c-otto"
-version = "2022.12.28_2"
+version = "2022.12.28_3"
 
 javaPlatform {
     allowDependencies()
@@ -33,6 +33,7 @@ dependencies {
         api("com.ryantenney.metrics:metrics-spring:3.1.3")
         api("commons-codec:commons-codec:1.15")
         api("io.github.resilience4j:resilience4j-spring-boot2:2.0.2")
+        api("io.github.resilience4j:resilience4j-spring-boot3:2.0.2")
         api("javax.annotation:javax.annotation-api:1.3.2")
         api("org.apache.commons:commons-lang3:3.12.0")
         api("org.eclipse.collections:eclipse-collections:11.1.0")
