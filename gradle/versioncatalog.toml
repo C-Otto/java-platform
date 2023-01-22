@@ -1,5 +1,5 @@
 [versions]
-platform = "2023.01.21_2"
+platform = "2023.01.22"
 checkstyle = "10.6.0"
 pmdCpd = "6.53.0"
 jacoco = "0.8.8"
