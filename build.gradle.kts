@@ -13,7 +13,7 @@ javaPlatform {
 }
 
 dependencies {
-    api(platform(versioncatalog.testing.assertJ))
+    api(platform(versioncatalog.testing.assertJBom))
 
     constraints {
         api(versioncatalog.gradleplugins.testLogger)
