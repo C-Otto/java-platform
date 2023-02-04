@@ -41,6 +41,7 @@ dependencies {
         api(versioncatalog.webjarsLocator)
         api(versioncatalog.logbackClassic)
         api(versioncatalog.slf4jApi)
+        api(versioncatalog.slf4jNop)
 
         api(versioncatalog.testing.slf4jTest)
         api(versioncatalog.testing.archunit)
