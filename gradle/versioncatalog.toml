@@ -1,5 +1,5 @@
 [versions]
-platform = "2023.02.25"
+platform = "2023.02.25_2"
 checkstyle = "10.7.0"
 pmdCpd = "6.55.0"
 jacoco = "0.8.8"
@@ -51,3 +51,4 @@ webjarsLocator = {group = "org.webjars", name = "webjars-locator", version = "0.
 logbackClassic = {group = "ch.qos.logback", name = "logback-classic", version = "1.4.5" }
 slf4jApi = {group = "org.slf4j", name = "slf4j-api", version.ref = "slf4j" }
 slf4jNop = {group = "org.slf4j", name = "slf4j-nop", version.ref = "slf4j" }
+slf4jSimple = {group = "org.slf4j", name = "slf4j-simple", version.ref = "slf4j" }
