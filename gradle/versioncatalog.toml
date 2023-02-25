@@ -1,7 +1,7 @@
 [versions]
 platform = "2023.02.13"
 checkstyle = "10.7.0"
-pmdCpd = "6.54.0"
+pmdCpd = "6.55.0"
 jacoco = "0.8.8"
 pitest = "1.11.0"
 pitestJunit5Plugin = "1.1.2"
