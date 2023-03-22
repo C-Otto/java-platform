@@ -1,5 +1,5 @@
 [versions]
-platform = "2023.03.19"
+platform = "2023.03.22"
 checkstyle = "10.9.2"
 pmdCpd = "6.55.0"
 jacoco = "0.8.8"
@@ -16,7 +16,7 @@ gradleplugins-cpd = {group = "de.aaschmid", name = "gradle-cpd-plugin", version 
 gradleplugins-errorprone = {group = "net.ltgt.gradle", name = "gradle-errorprone-plugin", version = "3.0.1" }
 gradleplugins-nullaway = {group = "net.ltgt.gradle", name = "gradle-nullaway-plugin", version = "1.5.0" }
 gradleplugins-pitest = {group = "info.solidsoft.gradle.pitest", name = "gradle-pitest-plugin", version = "1.9.11" }
-gradleplugins-spotbugs = {group = "com.github.spotbugs.snom", name = "spotbugs-gradle-plugin", version = "5.0.13" }
+gradleplugins-spotbugs = {group = "com.github.spotbugs.snom", name = "spotbugs-gradle-plugin", version = "5.0.14" }
 gradleplugins-testLogger = {group = "com.adarshr", name = "gradle-test-logger-plugin", version = "3.2.0" }
 
 gradleplugins-library-nullaway = {group = "com.uber.nullaway", name = "nullaway", version = "0.10.10" }
@@ -31,7 +31,7 @@ gradleplugins-library-spotbugs = {group = "com.github.spotbugs", name = "spotbug
 
 testing-assertJBom = {group = "org.assertj", name = "assertj-bom", version.ref = "assertJ" }
 testing-assertJCore = {group = "org.assertj", name = "assertj-core", version.ref = "assertJ" }
-testing-slf4jTest = {group = "com.github.valfirst", name = "slf4j-test", version = "2.8.1" }
+testing-slf4jTest = {group = "com.github.valfirst", name = "slf4j-test", version = "2.9.0" }
 testing-archunit = {group = "com.tngtech.archunit", name = "archunit", version = "1.0.1" }
 testing-equalsverifier = {group = "nl.jqno.equalsverifier", name = "equalsverifier", version = "3.14.1" }
 testing-awaitility = { group = "org.awaitility", name = "awaitility", version = "4.2.0" }
