@@ -20,7 +20,7 @@ gradleplugins-spotbugs = {group = "com.github.spotbugs.snom", name = "spotbugs-g
 gradleplugins-testLogger = {group = "com.adarshr", name = "gradle-test-logger-plugin", version = "3.2.0" }
 
 gradleplugins-library-nullaway = {group = "com.uber.nullaway", name = "nullaway", version = "0.10.10" }
-gradleplugins-library-errorprone = {group = "com.google.errorprone", name = "error_prone_core", version = "2.18.0" }
+gradleplugins-library-errorprone = {group = "com.google.errorprone", name = "error_prone_core", version = "2.19.1" }
 gradleplugins-library-findbugsJsr305 = {group = "com.google.code.findbugs", name = "jsr305", version = "3.0.2" }
 gradleplugins-library-checkstyle = {group = "com.puppycrawl.tools", name = "checkstyle", version.ref = "checkstyle" }
 gradleplugins-library-pmd = {group = "net.sourceforge.pmd", name = "pmd", version.ref = "pmdCpd" }
