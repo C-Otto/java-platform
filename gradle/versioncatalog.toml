@@ -1,11 +1,11 @@
 [versions]
-platform = "2023.10.12"
+platform = "2023.11.09"
 checkstyle = "10.12.4"
 pmdCpd = "6.55.0"
-jacoco = "0.8.10"
-pitest = "1.15.1"
-pitestJunit5Plugin = "1.2.0"
-spotbugs = "4.8.0"
+jacoco = "0.8.11"
+pitest = "1.15.3"
+pitestJunit5Plugin = "1.2.1"
+spotbugs = "4.8.1"
 assertJ = "3.24.2"
 slf4j = "2.0.9"
 
@@ -15,12 +15,12 @@ platform = {group = "de.c-otto", name = "java-platform", version.ref = "platform
 gradleplugins-cpd = {group = "de.aaschmid", name = "gradle-cpd-plugin", version = "3.3" }
 gradleplugins-errorprone = {group = "net.ltgt.gradle", name = "gradle-errorprone-plugin", version = "3.1.0" }
 gradleplugins-nullaway = {group = "net.ltgt.gradle", name = "gradle-nullaway-plugin", version = "1.6.0" }
-gradleplugins-pitest = {group = "info.solidsoft.gradle.pitest", name = "gradle-pitest-plugin", version = "1.9.11" }
-gradleplugins-spotbugs = {group = "com.github.spotbugs.snom", name = "spotbugs-gradle-plugin", version = "5.1.4" }
+gradleplugins-pitest = {group = "info.solidsoft.gradle.pitest", name = "gradle-pitest-plugin", version = "1.15.0" }
+gradleplugins-spotbugs = {group = "com.github.spotbugs.snom", name = "spotbugs-gradle-plugin", version = "5.2.3" }
 gradleplugins-testLogger = {group = "com.adarshr", name = "gradle-test-logger-plugin", version = "4.0.0" }
 
-gradleplugins-library-nullaway = {group = "com.uber.nullaway", name = "nullaway", version = "0.10.14" }
-gradleplugins-library-errorprone = {group = "com.google.errorprone", name = "error_prone_core", version = "2.22.0" }
+gradleplugins-library-nullaway = {group = "com.uber.nullaway", name = "nullaway", version = "0.10.16" }
+gradleplugins-library-errorprone = {group = "com.google.errorprone", name = "error_prone_core", version = "2.23.0" }
 gradleplugins-library-findbugsJsr305 = {group = "com.google.code.findbugs", name = "jsr305", version = "3.0.2" }
 gradleplugins-library-checkstyle = {group = "com.puppycrawl.tools", name = "checkstyle", version.ref = "checkstyle" }
 gradleplugins-library-pmd = {group = "net.sourceforge.pmd", name = "pmd", version.ref = "pmdCpd" }
@@ -32,8 +32,8 @@ gradleplugins-library-spotbugs = {group = "com.github.spotbugs", name = "spotbug
 testing-assertJBom = {group = "org.assertj", name = "assertj-bom", version.ref = "assertJ" }
 testing-assertJCore = {group = "org.assertj", name = "assertj-core", version.ref = "assertJ" }
 testing-slf4jTest = {group = "com.github.valfirst", name = "slf4j-test", version = "3.0.1" }
-testing-archunit = {group = "com.tngtech.archunit", name = "archunit", version = "1.1.0" }
-testing-equalsverifier = {group = "nl.jqno.equalsverifier", name = "equalsverifier", version = "3.15.2" }
+testing-archunit = {group = "com.tngtech.archunit", name = "archunit", version = "1.2.0" }
+testing-equalsverifier = {group = "nl.jqno.equalsverifier", name = "equalsverifier", version = "3.15.3" }
 testing-awaitility = { group = "org.awaitility", name = "awaitility", version = "4.2.0" }
 
 caffeine = {group = "com.github.ben-manes.caffeine", name = "caffeine", version = "3.1.8" }
@@ -47,7 +47,7 @@ commonsLang = {group = "org.apache.commons", name = "commons-lang3", version = "
 eclipseCollections = {group = "org.eclipse.collections", name = "eclipse-collections", version = "11.1.0" }
 ini4j = {group = "org.ini4j", name = "ini4j", version = "0.5.4" }
 bootstrap = {group = "org.webjars", name = "bootstrap", version = "5.3.2" }
-webjarsLocator = {group = "org.webjars", name = "webjars-locator", version = "0.47" }
+webjarsLocator = {group = "org.webjars", name = "webjars-locator", version = "0.48" }
 logbackClassic = {group = "ch.qos.logback", name = "logback-classic", version = "1.4.11" }
 slf4jApi = {group = "org.slf4j", name = "slf4j-api", version.ref = "slf4j" }
 slf4jNop = {group = "org.slf4j", name = "slf4j-nop", version.ref = "slf4j" }
