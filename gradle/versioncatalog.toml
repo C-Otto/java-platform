@@ -5,7 +5,7 @@ pmdCpd = "6.55.0"
 jacoco = "0.8.11"
 pitest = "1.15.3"
 pitestJunit5Plugin = "1.2.1"
-spotbugs = "4.8.1"
+spotbugs = "4.8.0"
 assertJ = "3.24.2"
 slf4j = "2.0.9"
 
