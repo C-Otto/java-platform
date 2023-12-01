@@ -5,7 +5,7 @@ pmdCpd = "6.55.0"
 jacoco = "0.8.10"
 pitest = "1.15.1"
 pitestJunit5Plugin = "1.2.0"
-spotbugs = "4.8.0"
+spotbugs = "4.8.2"
 assertJ = "3.24.2"
 slf4j = "2.0.9"
 
@@ -16,7 +16,7 @@ gradleplugins-cpd = {group = "de.aaschmid", name = "gradle-cpd-plugin", version 
 gradleplugins-errorprone = {group = "net.ltgt.gradle", name = "gradle-errorprone-plugin", version = "3.1.0" }
 gradleplugins-nullaway = {group = "net.ltgt.gradle", name = "gradle-nullaway-plugin", version = "1.6.0" }
 gradleplugins-pitest = {group = "info.solidsoft.gradle.pitest", name = "gradle-pitest-plugin", version = "1.9.11" }
-gradleplugins-spotbugs = {group = "com.github.spotbugs.snom", name = "spotbugs-gradle-plugin", version = "5.1.4" }
+gradleplugins-spotbugs = {group = "com.github.spotbugs.snom", name = "spotbugs-gradle-plugin", version = "5.2.5" }
 gradleplugins-testLogger = {group = "com.adarshr", name = "gradle-test-logger-plugin", version = "4.0.0" }
 
 gradleplugins-library-nullaway = {group = "com.uber.nullaway", name = "nullaway", version = "0.10.14" }
