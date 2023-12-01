@@ -1,5 +1,5 @@
 [versions]
-platform = "2023.10.12"
+platform = "2023.12.01"
 checkstyle = "10.12.5"
 pmdCpd = "6.55.0"
 jacoco = "0.8.11"
@@ -19,7 +19,7 @@ gradleplugins-pitest = {group = "info.solidsoft.gradle.pitest", name = "gradle-p
 gradleplugins-spotbugs = {group = "com.github.spotbugs.snom", name = "spotbugs-gradle-plugin", version = "5.2.5" }
 gradleplugins-testLogger = {group = "com.adarshr", name = "gradle-test-logger-plugin", version = "4.0.0" }
 
-gradleplugins-library-nullaway = {group = "com.uber.nullaway", name = "nullaway", version = "0.10.14" }
+gradleplugins-library-nullaway = {group = "com.uber.nullaway", name = "nullaway", version = "0.10.18" }
 gradleplugins-library-errorprone = {group = "com.google.errorprone", name = "error_prone_core", version = "2.22.0" }
 gradleplugins-library-findbugsJsr305 = {group = "com.google.code.findbugs", name = "jsr305", version = "3.0.2" }
 gradleplugins-library-checkstyle = {group = "com.puppycrawl.tools", name = "checkstyle", version.ref = "checkstyle" }
