@@ -1,6 +1,6 @@
 [versions]
 platform = "2023.10.12"
-checkstyle = "10.12.4"
+checkstyle = "10.12.5"
 pmdCpd = "6.55.0"
 jacoco = "0.8.11"
 pitest = "1.15.3"
