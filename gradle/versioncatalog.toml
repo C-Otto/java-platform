@@ -2,7 +2,7 @@
 platform = "2023.10.12"
 checkstyle = "10.12.4"
 pmdCpd = "6.55.0"
-jacoco = "0.8.10"
+jacoco = "0.8.11"
 pitest = "1.15.1"
 pitestJunit5Plugin = "1.2.0"
 spotbugs = "4.8.2"
