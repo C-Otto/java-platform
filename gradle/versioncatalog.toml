@@ -1,13 +1,13 @@
 [versions]
-platform = "2023.12.01"
-checkstyle = "10.12.5"
+platform = "2024.02.13"
+checkstyle = "10.13.0"
 pmdCpd = "6.55.0"
 jacoco = "0.8.11"
-pitest = "1.15.3"
+pitest = "1.15.8"
 pitestJunit5Plugin = "1.2.1"
-spotbugs = "4.8.2"
-assertJ = "3.24.2"
-slf4j = "2.0.9"
+spotbugs = "4.8.3"
+assertJ = "3.25.3"
+slf4j = "2.0.12"
 
 [libraries]
 platform = {group = "de.c-otto", name = "java-platform", version.ref = "platform" }
