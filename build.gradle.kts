@@ -1,6 +1,7 @@
 plugins {
     `java-platform`
     `maven-publish`
+    id("io.github.gradle-nexus.publish-plugin") version "2.0.0"
     `version-catalog`
     signing
 }
@@ -55,6 +56,15 @@ catalog {
     }
 }
 
+nexusPublishing {
+    repositories {
+        sonatype {
+            nexusUrl.set(uri("https://ossrh-staging-api.central.sonatype.com/service/local/"))
+            snapshotRepositoryUrl.set(uri("https://central.sonatype.com/repository/maven-snapshots/"))
+        }
+    }
+}
+
 publishing {
     publications {
         create<MavenPublication>("maven") {
@@ -84,16 +94,6 @@ publishing {
                     url.set("https://github.com/C-Otto/java-platform")
                 }
             }
-            repositories {
-                maven {
-                    name = "OSSRH"
-                    setUrl("https://s01.oss.sonatype.org/service/local/staging/deploy/maven2")
-                    credentials {
-                        username = System.getenv("SONATYPE_TOKEN_USERNAME") ?: return@credentials
-                        password = System.getenv("SONATYPE_TOKEN_PASSWORD") ?: return@credentials
-                    }
-                }
-            }
         }
         create<MavenPublication>("java-platform") {
             from(components["javaPlatform"])
@@ -119,16 +119,6 @@ publishing {
                     connection.set("scm:git:git://github.com/C-Otto/java-platform.git")
                     developerConnection.set("scm:git:ssh://github.com/C-Otto/java-platform.git")
                     url.set("https://github.com/C-Otto/java-platform")
-                }
-            }
-            repositories {
-                maven {
-                    name = "OSSRH"
-                    setUrl("https://s01.oss.sonatype.org/service/local/staging/deploy/maven2")
-                    credentials {
-                        username = System.getenv("SONATYPE_TOKEN_USERNAME") ?: return@credentials
-                        password = System.getenv("SONATYPE_TOKEN_PASSWORD") ?: return@credentials
-                    }
                 }
             }
         }
