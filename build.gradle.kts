@@ -23,7 +23,7 @@ dependencies {
         api(versioncatalog.gradleplugins.errorprone)
         api(versioncatalog.gradleplugins.nullaway)
 
-        api(versioncatalog.gradleplugins.library.findbugsJsr305)
+        api(versioncatalog.gradleplugins.library.spotbugs.annotations)
         api(versioncatalog.gradleplugins.library.errorprone)
         api(versioncatalog.gradleplugins.library.nullaway)
 
@@ -31,7 +31,7 @@ dependencies {
         api(versioncatalog.guava)
         api(versioncatalog.metricsSpring)
         api(versioncatalog.commonsCodec)
-        api(versioncatalog.resilience4jSpringBoot3)
+        api(versioncatalog.resilience4jSpringBoot4)
         api(versioncatalog.commonsLang)
         api(versioncatalog.eclipseCollections)
         api(versioncatalog.ini4j)
