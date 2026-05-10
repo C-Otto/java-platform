@@ -4,3 +4,8 @@ This project provides some versions for libraries I commonly use in my Java proj
 so that I only have to update these versions in this central location.
 
 See https://docs.gradle.org/current/userguide/java_platform_plugin.html for more information.
+
+## Publishing
+
+* Set environment variables (`pass sonatype`)
+* `./gradlew publishToSonatype closeAndReleaseSonatypeStagingRepository`
